@@ -2,49 +2,60 @@ package main
 
 import "fmt"
 
-// 单行注释
+//常量
+const pi = 3.1415
 
-/*
-	多行注释
-*/
-
-//声明变量  推荐使用小驼峰声明法
-//var name string
-//var age int
-
-//批量声明
-var (
-	name string
-	age  int
-	isok bool
+//批量声明常量
+const (
+	code1 = 200
+	code2 = 403
+	code3 = 404
 )
 
-// 关于打印
-//printf 和 println 是有区别的  printf可以用后面的值替换占位符  而println是不可以用后面的值替换占位符的，会全部打印
-//如 name := "xyh"  printf("%s", name) --> xyh     println("%s", name)  -->  %s xyh
+// 如果某一行没有写值，则后面的默认和前面的一样
+const (
+	n1 = 100
+	n2
+	n3
+)
+
+// iota 类似枚举  在const关键字出现时将被重置为0,每新增一行常量声明则iota值加1
+const (
+	a1 = iota // 0
+	a2 = iota // 1
+	_         // 2
+	a3        // 3
+)
+
+// 插队
+const (
+	b1 = iota //0
+	b2 = 100  //1
+	b3 = iota //2
+	b4        //3
+)
+
+// 多个变量声明在一行
+const (
+	d1, d2 = iota + 1, iota + 2
+	d3, d4 = iota + 1, iota + 2
+)
+
+// 定义数量级
+const (
+	_  = iota
+	KB = 1 << (10 * iota)
+	MB = 1 << (10 * iota)
+	GB = 1 << (10 * iota)
+	TB = 1 << (10 * iota)
+)
 
 func main() {
-	name = "理想"
-	age = 18
-	isok = true
-	//Go语言中变量先声明必须使用 
-	fmt.Printf("name:%s", name)
-	fmt.Println()
-	fmt.Println(isok)
-	fmt.Println(age)
-
-	//变量的初始化
-	var name string = "熊宇航"
-	fmt.Println(name)       //熊宇航
-	fmt.Println("%s", name) //%s 熊宇航
-
-	//类型推导
-	var a = 1
-	fmt.Println(a)
-
-	//简短变量声明，只能在函数体内使用
-	s3 := "ly"
-	fmt.Println(s3)
-
-	//匿名变量是一个特殊的变量
+	//fmt.Println(n2)
+	fmt.Println(a3)
+	fmt.Println(b4)
+	fmt.Println(d1)
+	fmt.Println(d2)
+	fmt.Println(d3)
+	fmt.Println(d4)
 }
