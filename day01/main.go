@@ -2,29 +2,22 @@ package main
 
 import "fmt"
 
-//整型
-//占位符
-//  %s %T %c %d %b %o %x 
+// 浮点数和布尔型
 
 func main() {
-	//类型自动推导  十进制数
-	var i1 int = 10
-	fmt.Printf("%b\n", i1) //把十进制数转换为二进制
-	fmt.Printf("%o\n", i1) //把十进制数转换为八进制
-	fmt.Printf("%x\n", i1) //把十进制数转换为十六进制
+	//math.MaxFloat32 // float32位最大值
+	f1 := 1.2345
+	fmt.Printf("%T\n", f1) // 默认64位
+	f2 := float32(1.098)
+	fmt.Printf("%T\n", f2)
+	// float32位的不能赋值给64位的
+	//f1 = f2
 
-	// 八进制
-	i2 := 077
-	fmt.Printf("%d\n", i2)
+	//b1 := true
+	var b2 bool // 默认false
+	fmt.Printf("%T value:%v\n", b2, b2)
 
-	// 十六进制
-	i3 := 0xFF
-	fmt.Printf("%d\n", i3)
-
-	//查看变量的类型
-	i4 := int16(9)
-	fmt.Printf("%T\n", i4)
-
-	i5 := 'c'
-	fmt.Printf("%c\n", i5)
+	var s string = "hello"
+	fmt.Printf("%v\n", s)
+	fmt.Printf("%#v", s)
 }
