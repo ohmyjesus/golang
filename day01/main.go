@@ -27,7 +27,7 @@ func main() {
 	name = "理想"
 	age = 18
 	isok = true
-	//Go语言中变量先声明必须使用
+	//Go语言中变量先声明必须使用 
 	fmt.Printf("name:%s", name)
 	fmt.Println()
 	fmt.Println(isok)
