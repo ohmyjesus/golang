@@ -3,10 +3,17 @@
 
 俗话说，技多不压身，今天开始每天打卡，记录学习内容，慢慢地熟悉Go语言，争取转型Go
 
-此学习笔记来源于[Golang学习视频](https://www.bilibili.com/video/BV16E411H7og?p=7&spm_id_from=pageDriver)，库中目前包含的有以下知识
+此学习笔记来源于[Go语言学习视频](https://www.bilibili.com/video/BV16E411H7og?p=7&spm_id_from=pageDriver)，库中目前包含的有以下知识
 
 ### 第一章 **基本语法**
 #### 今日学习
-&emsp;&emsp;变量、常量、itoa、基本数据类型、流程控制语句，运算符    (第一天个人感觉Go语法基础和C/C++的语法基础还是有较大不同)
+&emsp;&emsp;变量、常量、itoa、基本数据类型、流程控制语句，运算符    
 
-<p align="right">2021.5.10</p>
+&emsp;&emsp;近期一直在学c++，突然学其他语法还有点不太习惯，还是需要多联想和多记一下他们之间的区别
+
+<p align="right">2021.5.10 night</p>
+
+#### 今日学习
+&emsp;&emsp;数组、切片、切片的相关操作、指针、map、函数、defer关键字、全局变量、函数作为形参和返回值类型、匿名函数、闭包。（切片相当于一个框，框住的是底层数组的一部分，是数组的引用类型，切片是动态拓展的，而数组是静态空间的。）
+
+<p align="right">2021.5.11 night</p>
