@@ -1,0 +1,2 @@
+[2021/05/14 21:30:08] [函数:main.main] [文件名:main.go] DEBUG	 [行号:19] 这是一个 debug 日志 id:10010 name:xyh
+[2021/05/14 21:30:12] [函数:main.main] [文件名:main.go] DEBUG	 [行号:19] 这是一个 debug 日志 id:10010 name:xyh
