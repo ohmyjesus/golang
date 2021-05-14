@@ -33,3 +33,10 @@
 &emsp;&emsp;( 掌握接口的使用，文件操作等，结合以上知识做了一个作业2--向文件中插入内容homework2_file_insert)
 
 <p align="right">2021.5.13 night</p>
+
+#### 今日学习
+&emsp;&emsp;log库、runtime获取时间信息、reflect反射。
+
+&emsp;&emsp;( 今天主要是结合之前学习的内容做了一个日志库，详情见作业3--我的日志库homework3_mylogger)
+
+<p align="right">2021.5.14 night</p>
