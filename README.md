@@ -23,13 +23,13 @@
 #### 今日学习
 &emsp;&emsp;panic崩溃、fmt包、函数的递归、type关键字、struct结构体、构造函数、方法(特殊的函数)、匿名结构体、结构体嵌套、结构体“继承”、结构体和json。
 
-&emsp;&emsp;( 理解结构体的使用，结构体和方法的联用，最后结合以上知识点做了一个小作业--函数版的学生管理系统day04/homework1_stu_manage.go)
+&emsp;&emsp;( 理解结构体的使用，结构体和方法的联用，最后结合以上知识点做了一个小作业--函数版的学生管理系统homework1_stu_manage)
 
 <p align="right">2021.5.12 night</p>
 
 #### 今日学习
 &emsp;&emsp;接口、指针接收者实现接口、同一个结构体实现多个接口、空接口、类型断言、包、包的导入、文件操作、使用bufio获取用户输入、在文件中插入指定内容(用到临时文件)、time包的使用。
 
-&emsp;&emsp;( 掌握接口的使用，文件操作等，结合以上知识做了一个小作业--向文件中插入内容day06/homework2_file_insert.go)
+&emsp;&emsp;( 掌握接口的使用，文件操作等，结合以上知识做了一个小作业--向文件中插入内容homework2_file_insert)
 
 <p align="right">2021.5.13 night</p>
