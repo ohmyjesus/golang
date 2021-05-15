@@ -40,3 +40,8 @@
 &emsp;&emsp;( 今天主要是结合之前学习的内容做了一个日志库，详情见作业3--我的日志库homework3_mylogger)
 
 <p align="right">2021.5.14 night</p>
+
+#### 今日学习
+&emsp;&emsp;今天周六，白天就是在改小论文，因为下周需要复审回去，下午出去逛了逛，就没看go的新知识。
+
+<p align="right">2021.5.15 night</p>
