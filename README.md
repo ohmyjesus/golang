@@ -42,11 +42,6 @@
 <p align="right">2021.5.14 night</p>
 
 #### 今日学习
-&emsp;&emsp;今天周六，白天就是在改小论文，下午出去逛了逛，就没看go的新知识。
+&emsp;&emsp;周末两天主要是修改论文，然后出去走了走，就没看go的新知识。 下周继续学习go
 
-<p align="right">2021.5.15 night</p>
-
-#### 今日学习
-&emsp;&emsp;今天改了一天的论文，算是改的差不多了，下周再补充补充就返回去了。
-
-<p align="right">2021.5.16 night</p>
+<p align="right">2021.5.15 & 2021.5.16 night</p>
