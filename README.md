@@ -55,3 +55,8 @@
 &emsp;&emsp;strconv包(字符串数字转整型数字等)、goroutine创建线程、waitGroup等待goroutine执行结束、GOMAXPROCS决定跑满CPU核心的个数、channel创建通道、有无缓冲区的通道和单向通道、通道close时的注意事项。
 
 <p align="right">2021.5.18 night</p>
+
+#### 今日学习
+&emsp;&emsp;今天把论文返修回去了，其余时间看了一下goroutine池，主要是创建多个goroutine它们之间通过通道进行数据交互，最后完成了一个小作业homework5_goroutine_channel(利用goroutine和channel实现一个计算int64随机数各位数和的程序)
+
+<p align="right">2021.5.19 night</p>
