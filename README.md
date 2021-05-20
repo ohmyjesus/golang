@@ -60,3 +60,8 @@
 &emsp;&emsp;今天把论文返修回去了，其余时间看了一下goroutine池，主要是创建多个goroutine它们之间通过通道进行数据交互，最后完成了一个小作业homework5_goroutine_channel(利用goroutine和channel实现一个计算int64随机数各位数和的程序)
 
 <p align="right">2021.5.19 night</p>
+
+#### 今日学习
+&emsp;&emsp;互斥锁、读写互斥锁、map的多线程安全版本sync.map、atomic包、tcp的客户端服务器端通信、tcp粘包时的处理方式、udp的客户端服务器端通信、http的服务器端编写。(感觉go语言写socker通信好方便，比在linux中容易实现多了，很快就能上手。 最后做了一个小作业homework6_tcp实现了客户端和服务器端的通信)
+
+<p align="right">2021.5.20 night</p>
