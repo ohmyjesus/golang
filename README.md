@@ -46,7 +46,8 @@
 
 <p align="right">2021.5.15 & 2021.5.16 night</p>
 
-&emsp;&emsp;周小结：Go语言的基本语法、基础语法必须掌握牢固。
+#### 周小结：
+&emsp;&emsp;这一周主要学习了Go语言的基本语法，语法基必须要牢牢掌握。
 
 #### 今日学习
 &emsp;&emsp;ini配置文件解析，类似于手动实现unmarshal功能，整个流程实现起来较为复杂，主要是有很多函数都不太熟，比如TypeOf和ValueOf函数，它们对应的有哪些方法也不是很清楚，所以动手实现起来比较慢，不过好在最后还是完成了个简单版本的ini配置文件解析，也还行，明天开始看并发和channel。(作业4--ini配置文件解析homework4_ini)
@@ -76,10 +77,11 @@
 <p align="right">2021.5.21 night</p>
 
 #### 周末学习
-&emsp;&emsp;pprof性能调优(查看CPU和内存的profile性能信息)、os.Args获取命令行参数、用flag包获取更加详细的命令行参数。
+&emsp;&emsp;pprof性能调优(查看CPU和内存的profile性能信息)、os.Args获取命令行参数、用flag包获取更加详细的命令行参数、使用Go语言连接数据库并实现数据库的增删改查操作，和数据库的预处理操作。
 
 <p align="right">2021.5.22 & 2021.5.23 night</p>
 
-&emsp;&emsp;周小结：go语言可以直接做并发编程，实现起来很简单，很方便。 
+### 周小结：
+&emsp;&emsp;Go语言能做网络编程已经很让我惊讶了，没想到Go语言还能连接数据库完成相关的操作，真是amazing，现在好期待go语言后面又会给我带来什么惊喜。 本周重点内容是：创建goroutine线程、channel通道、互斥锁读写锁、socket编程(TCPUDP客户端服务器端通信)、HTTP客户端服务器端通信、连接mysql数据库完成增删改查操作。
 
-重点内容是：goroutine线程、channel通道、互斥锁读写锁、socket编程(TCPUDP客户端服务器端通信)、HTTP客户端服务器端通信、
+
