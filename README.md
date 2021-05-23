@@ -41,7 +41,7 @@
 
 <p align="right">2021.5.14 night</p>
 
-#### 今日学习
+#### 周末学习
 &emsp;&emsp;周末两天主要是修改论文，然后出去走了走，就没看go的新知识。 下周继续学习go
 
 <p align="right">2021.5.15 & 2021.5.16 night</p>
@@ -72,7 +72,7 @@
 
 <p align="right">2021.5.21 night</p>
 
-#### 今日学习
+#### 周末学习
 &emsp;&emsp;pprof性能调优(查看CPU和内存的profile性能信息)、os.Args获取命令行参数、用flag包获取更加详细的命令行参数。
 
-<p align="right">2021.5.22 night</p>
+<p align="right">2021.5.22 & 2021.5.23 night</p>
