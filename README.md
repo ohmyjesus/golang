@@ -1,11 +1,11 @@
 # Go-Golang
 &emsp;&emsp;Go语言作为21世纪的语言，其天生就支持并发，能够充分利用多核处理器，并且Go语言实现了开发效率和执行效率的完美结合，其具有C/C++的性能同时兼备python代码的效率。
 
-俗话说，技多不压身，今天开始每天打卡，记录学习内容，慢慢地熟悉Go语言，争取转型Go
+今天开始每天打卡，记录学习内容，慢慢地熟悉Go语言，争取转型Go
 
 此学习笔记来源于[Go语言学习视频](https://www.bilibili.com/video/BV16E411H7og?p=7&spm_id_from=pageDriver)，库中目前包含的有以下知识
 
-### 第一部分 **基本语法**
+### 第一部分 基本语法
 #### 今日学习
 &emsp;&emsp;变量、常量、itoa、基本数据类型、流程控制语句，运算符    
 
@@ -46,12 +46,15 @@
 
 <p align="right">2021.5.15 & 2021.5.16 night</p>
 
+&emsp;&emsp;周小结：Go语言的基本语法、基础语法必须掌握牢固。
+
 #### 今日学习
 &emsp;&emsp;ini配置文件解析，类似于手动实现unmarshal功能，整个流程实现起来较为复杂，主要是有很多函数都不太熟，比如TypeOf和ValueOf函数，它们对应的有哪些方法也不是很清楚，所以动手实现起来比较慢，不过好在最后还是完成了个简单版本的ini配置文件解析，也还行，明天开始看并发和channel。(作业4--ini配置文件解析homework4_ini)
 
 <p align="right">2021.5.17 night</p>
 
-### 第二部分 **并发编程**
+### 第二部分 并发编程
+
 #### 今日学习
 &emsp;&emsp;strconv包(字符串数字转整型数字等)、goroutine创建线程、waitGroup等待goroutine执行结束、GOMAXPROCS决定跑满CPU核心的个数、channel创建通道、有无缓冲区的通道和单向通道、通道close时的注意事项。
 
@@ -76,3 +79,7 @@
 &emsp;&emsp;pprof性能调优(查看CPU和内存的profile性能信息)、os.Args获取命令行参数、用flag包获取更加详细的命令行参数。
 
 <p align="right">2021.5.22 & 2021.5.23 night</p>
+
+&emsp;&emsp;周小结：go语言可以直接做并发编程，实现起来很简单，很方便。 
+
+重点内容是：goroutine线程、channel通道、互斥锁读写锁、socket编程(TCPUDP客户端服务器端通信)、HTTP客户端服务器端通信、
