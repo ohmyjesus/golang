@@ -85,6 +85,6 @@
 &emsp;&emsp;Go语言能做网络编程已经很让我惊讶了，没想到Go语言还能连接数据库完成相关的操作，真是amazing，现在好期待go语言后面又会给我带来什么惊喜。 本周重点内容是：创建goroutine线程、channel通道、互斥锁读写锁、socket编程(TCPUDP客户端服务器端通信)、HTTP客户端服务器端通信、连接mysql数据库完成增删改查操作。
 
 #### 今日学习
-&emsp;&emsp;mysql数据库的连接，mysql事务的实现、sql的提高sqlx，利用sqlx实现查询和插入数据、sql注入、消息队列nsq初识(go操作nsq实现消费者和生产者模型)、context实现线程的退出、agent服务端开发项目的初步了解(kafka和zookeeper的原理，后续会有tailf和etcd等知识点)
+&emsp;&emsp;mysql数据库的连接，mysql事务的实现、sql的提高版sqlx，利用sqlx实现查询和插入数据、sql注入、消息队列nsq初识(go操作nsq实现消费者和生产者模型)、context实现线程的退出、agent服务端开发项目的初步了解(kafka和zookeeper的原理，后续会有tailf和etcd等知识点)
 
 <p align="right">2021.5.24 night</p>
