@@ -88,3 +88,8 @@
 &emsp;&emsp;mysql事务的实现、sql的提高版sqlx，利用sqlx实现查询和插入数据、sql注入、消息队列nsq初识(go操作nsq实现消费者和生产者模型)、context实现线程的退出、agent服务端开发项目的初步了解(kafka和zookeeper的原理，后续会有tailf和etcd等知识点)
 
 <p align="right">2021.5.24 night</p>
+
+#### 今日学习
+&emsp;&emsp;利用tailf读日志和利用sarama向kafka里写日志，这几天需要完成一个logAgent服务端开发项目，完成中......
+
+<p align="right">2021.5.25 night</p>
