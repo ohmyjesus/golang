@@ -90,7 +90,7 @@
 <p align="right">2021.5.24 night</p>
 
 #### 今日学习
-&emsp;&emsp;利用tailf读日志和利用sarama向kafka里写日志，这几天需要完成一个logAgent服务端开发项目，完成中......
+&emsp;&emsp;利用tailf读日志和利用sarama向kafka里写日志，这几天需要完成一个logAgent服务端开发项目。
 
 <p align="right">2021.5.25 night</p>
 
