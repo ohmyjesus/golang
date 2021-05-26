@@ -93,3 +93,8 @@
 &emsp;&emsp;利用tailf读日志和利用sarama向kafka里写日志，这几天需要完成一个logAgent服务端开发项目，完成中......
 
 <p align="right">2021.5.25 night</p>
+
+#### 今日学习
+&emsp;&emsp;zookeeper版本的logagent小作业已经完成，期间用到了一个第三方的ini解析库，tailf对ini解析后的日志地址进行读取，将读取到的日志信息利用通道传输，然后sarama将该日志信息发送给kafka。此外还学习了etcd的搭建和操作，包括put、get、del和watch操作，现在是在利用etcd对zookeeper版本的日志收集项目进行优化。
+
+<p align="right">2021.5.26 night</p>
