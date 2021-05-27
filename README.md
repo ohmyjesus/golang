@@ -5,7 +5,7 @@
 
 此学习笔记来源于[Go语言学习视频](https://www.bilibili.com/video/BV16E411H7og?p=7&spm_id_from=pageDriver)，库中目前包含的有以下知识
 
-### 第一部分 基本语法
+## 第一部分 基本语法
 #### 今日学习
 &emsp;&emsp;变量、常量、itoa、基本数据类型、流程控制语句，运算符    
 
@@ -54,7 +54,7 @@
 ### 本周小结：
 &emsp;&emsp;这一周主要学习了Go语言的基本语法，语法基础必须要牢牢掌握。
 
-### 第二部分 并发编程
+## 第二部分 并发编程
 
 #### 今日学习
 &emsp;&emsp;strconv包(字符串数字转整型数字等)、goroutine创建线程、waitGroup等待goroutine执行结束、GOMAXPROCS决定跑满CPU核心的个数、channel创建通道、有无缓冲区的通道和单向通道、通道close时的注意事项。
