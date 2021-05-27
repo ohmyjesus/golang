@@ -15,10 +15,8 @@ import (
 
 // 注：开始运行程序之前要先启动zookeeper和kafka
 
-var cfg *ini.File
-
 // logagent的入口程序
-func run() {
+func run(cfg *ini.File) {
 	// 1. 利用tailf读取日志
 	for {
 		select {
@@ -33,6 +31,7 @@ func run() {
 
 func main() {
 	// 0. 加载配置文件 -- 配置文件版的logagent 用到了第三方包
+	var cfg *ini.File
 	cfg, err := ini.Load("./conf/config.ini")
 	if err != nil {
 		fmt.Println("ini load error", err)
@@ -54,5 +53,5 @@ func main() {
 	}
 	fmt.Println("初始化tailf成功")
 
-	run()
+	run(cfg)
 }
