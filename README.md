@@ -103,3 +103,8 @@
 &emsp;&emsp;老师的etcd版本用到的东西很多，对现在的我来说有点复杂，一下有点接受不过来，于是自己就先做了个低配版的etcd_log。主要思路是先初始化kafka和etcd，连接上etcd之后不再从配置文件里读，而是从etcd里面获取日志信息，然后创建子goroutine对日志信息进行watch监视并将日志发送到kafka，遗憾的是未能实现日志的动态新增功能，后续会对老师的版本进行理解和掌握。
 
 <p align="right">2021.5.27 night</p>
+
+#### 今日学习
+&emsp;&emsp;elasticsearch的介绍和环境搭建、go操作ES实现插入数据、利用POSTMAN向ES中插入数据和检索索引、Kibana查询ES中的数据键值对。
+
+<p align="right">2021.5.28 night</p>
