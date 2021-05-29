@@ -105,6 +105,11 @@
 <p align="right">2021.5.27 night</p>
 
 #### 今日学习
-&emsp;&emsp;elasticsearch的介绍和环境搭建、go操作ES实现插入数据、利用POSTMAN向ES中插入数据和检索索引、Kibana查询ES中的数据键值对。
+&emsp;&emsp;elasticsearch的介绍和环境搭建、go操作ES实现插入数据、利用POSTMAN向ES中插入数据和检索和用Kibana查询ES中的数据键值对。
 
 <p align="right">2021.5.28 night</p>
+
+#### 周末学习
+&emsp;&emsp;logtransfer的实现，主要思路是kafka消费者从kafka中读出数据，然后将数据发往ES中，发送成功后可以通过POSTMAN进行索引查询或通过Kibana进行可视化的数据查看。
+
+<p align="right">2021.5.29 night</p>
