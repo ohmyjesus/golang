@@ -54,7 +54,7 @@
 ### 本周小结：
 &emsp;&emsp;这一周主要学习了Go语言的基本语法，语法基础必须要牢牢掌握。
 
-## 第二部分 并发编程
+## 第二部分 网络编程
 
 #### 今日学习
 &emsp;&emsp;strconv包(字符串数字转整型数字等)、goroutine创建线程、waitGroup等待goroutine执行结束、GOMAXPROCS决定跑满CPU核心的个数、channel创建通道、有无缓冲区的通道和单向通道、通道close时的注意事项。
@@ -112,6 +112,12 @@
 #### 周末学习
 &emsp;&emsp;logtransfer的实现，主要思路是kafka消费者从kafka中读出数据，然后将数据发往ES中，发送成功后可以通过POSTMAN进行索引查询或通过Kibana进行可视化的数据查看。到这里的话日志收集项目差不多就完成了，有tailf版本的，有etcd版本的，然后再通过ES搜索引擎进行优化的，整个日志收集项目用到的东西还是蛮多的，难度其实不算大，主要是思路一定要清晰，做起来就会容易很多，后续会再复习代码进行深度理解和掌握。
 
+<p align="right">2021.5.29 night</p>
+
+## 第三部分 Web框架
+
 &emsp;&emsp;用prometheus和grafana来监控系统信息和查看性能指标等。go语言web框架的初识gin，用gin获取API参数和URL参数，获取表单参数，上传单个文件和上传多个文件。
 
-<p align="right">2021.5.29 & 2021.5.30 night</p>
+<p align="right">2021.5.30 night</p>
+
+
