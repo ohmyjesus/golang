@@ -95,12 +95,12 @@
 <p align="right">2021.5.25 night</p>
 
 #### 今日学习
-&emsp;&emsp;zookeeper版本的logagent小作业已经完成，期间用到了一个第三方的ini解析库，tailf对ini解析后的日志地址进行读取，将读取到的日志信息利用通道传输，然后sarama将该日志信息发送给kafka。此外还学习了etcd的搭建和操作，包括put、get、del和watch操作，现在是在利用etcd对zookeeper版本的日志收集项目进行优化。
+&emsp;&emsp;zookeeper版本的logagent小作业已经完成，详情见homework7_logagent_zookeeper。其中用到了一个第三方的ini解析库，tailf对ini解析后的日志地址进行读取，将读取到的日志信息利用通道传输，然后sarama将该日志信息发送给kafka。此外还学习了etcd的搭建和操作，包括put、get、del和watch操作，现在是在利用etcd对zookeeper版本的日志收集项目进行优化。
 
 <p align="right">2021.5.26 night</p>
 
 #### 今日学习
-&emsp;&emsp;老师的etcd版本用到的东西很多，对现在的我来说有点复杂，一下有点接受不过来，于是自己就先做了个低配版的etcd_log。主要思路是先初始化kafka和etcd，连接上etcd之后不再从配置文件里读，而是从etcd里面获取日志信息，然后创建子goroutine对日志信息进行watch监视并将日志发送到kafka，遗憾的是未能实现日志的动态新增功能，后续会对老师的版本进行理解和掌握。
+&emsp;&emsp;老师的etcd版本用到的东西很多，对现在的我来说有点复杂，一下有点接受不过来，于是自己就先做了个低配版的etcd_log。主要思路是先初始化kafka和etcd，连接上etcd之后不再从配置文件里读，而是从etcd里面获取日志信息，然后创建子goroutine对日志信息进行watch监视并将日志发送到kafka，遗憾的是未能实现日志的动态新增功能，后续会对老师的版本进行理解和掌握。详情见homework8_logagent_etcd。
 
 <p align="right">2021.5.27 night</p>
 
