@@ -124,3 +124,8 @@
 &emsp;&emsp;gin数据解析和绑定；其中包括json数据解析和绑定、表单数据解析和绑定和URI数据解析和绑定， gin数据渲染，HTML模式渲染，重定向，异步和同步，中间件的了解和练习，cookie状态信息的了解和练习。晚上在做一个gin版本的数据库增删改查操作，其中用到了gin框架，连接mysql及其相关操作，HTML等知识，预计明天完成。
 
 <p align="right">2021.5.31 night</p>
+
+#### 今日学习
+&emsp;&emsp;gin版本的mysql作业已完成，详情见homework9_database_gin。另外学习了一下etcd的raft算法的底层原理，看了一下raft的动画，主要是自动选举和日志复制，虽然跟着老师走了一遍，但还是有点迷糊，后续还是需要再重温加深一下印象，接着学习了选项设计模式、gRPC的了解和gRPC版的客户端和服务端的通信，感觉和直接用go实现的tcp通信差不多，明天学习goMicro和docker，这一周应该能结束go语言的基础知识。
+
+<p align="right">2021.6.1 night</p>
