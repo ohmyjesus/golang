@@ -21,5 +21,5 @@ func main() {
 
 	// 2. 连接路由
 	templates.InitGin()
-
+ 
 }
