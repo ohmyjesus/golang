@@ -147,6 +147,6 @@
 <p align="right">2021.6.5 & 2021.6.6 night</p>
 
 #### 今天学习
-&emsp;&emsp;今天复习了一下项目logAgent，梳理了一下项目的整体流程，对etcd的raft协议原理进行了理解，然后看了一下docker
+&emsp;&emsp;今天复习了一下项目logAgent，对项目的整个流程进行了梳理，对服务注册发现的含义、用到的各个组件的作用、etcd的raft协议原理有了更深刻的认识，然后晚上看了一下docker方面的书（深入浅出docker），还是想学一下docker和k8s，然后刷了一道算法题(用切片实现栈的作用)，明天继续复习和学习新知识。
 
 <p align="right">2021.6.7 night</p>
