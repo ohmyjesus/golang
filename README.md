@@ -3,7 +3,7 @@
 
 今天开始每天打卡，记录学习内容，慢慢地熟悉Go语言，争取转型Go
 
-此学习笔记来源于[Go语言学习视频](https://www.bilibili.com/video/BV16E411H7og?p=7&spm_id_from=pageDriver)，库中目前包含的有以下知识
+此go学习笔记来源于[Go语言学习视频](https://www.bilibili.com/video/BV16E411H7og?p=7&spm_id_from=pageDriver)，docker以及k8s的笔记来自[docker和k8s详解](https://www.bilibili.com/video/BV1nr4y1T7Bf?from=search&seid=15460542585986045884)，库中目前包含的有以下知识
 
 ## 第一部分 基本语法
 #### 今日学习
