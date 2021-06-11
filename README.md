@@ -166,3 +166,6 @@
 &emsp;&emsp;今天docker拉满！ 从早看到晚，其实也没这么夸张，主要是中间遇到一些问题，然后解决花了很多的时间，学的倒也不多，今天主要在学docker容器相关和dockerfile的编写，对二者的基本命令更加熟悉了，明天dockerfile结束就是讲k8s了，一步一步地走，循序渐进。
 
 <p align="right">2021.6.10 night</p>
+
+&emsp;&emsp;今天学习了一下k8s，包括k8s的起源、k8s的优势以及k8s四组很重要的概念：Pod/Pod控制器、Name/Namespace、Label/Label选择器、Service/Ingress。 然后今天刷算法题的时候发现go语言没有array[i++]操作，这个go也不支持，蛮难受的，然后明天应该就可以进行k8s的安装部署，就能入个门了。
+<p align="right">2021.6.10 night</p>
