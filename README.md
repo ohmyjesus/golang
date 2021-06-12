@@ -167,5 +167,10 @@
 
 <p align="right">2021.6.10 night</p>
 
+#### 今天学习
 &emsp;&emsp;今天学习了一下k8s，包括k8s的起源、k8s的优势以及k8s四组很重要的概念：Pod/Pod控制器、Name/Namespace、Label/Label选择器、Service/Ingress。 然后今天刷算法题的时候发现go语言没有array[i++]操作，这个go也不支持，蛮难受的，然后明天应该就可以进行k8s的安装部署，就能入个门了。
-<p align="right">2021.6.10 night</p>
+<p align="right">2021.6.11 night</p>
+
+#### 周末学习
+&emsp;&emsp;今天开始配置k8s，先是准备5个虚拟机，然后对主节点进行DNS的配置、签发证书环境的准备。中间配环境的时候遇到一点小问题，而且要一步一步跟着做，所以花的时间就蛮久的。不过配置k8s的环境还是很有必要的，能够跟着老师一起做一做，还是能收获很多，而且能更加熟悉k8s。
+<p align="right">2021.6.12 night</p>
