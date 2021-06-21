@@ -197,5 +197,5 @@
 
 # 暂时停更
 #### 今天学习
-&emsp;&emsp;博客网站直接改为在WordPress上面做，后续的话就直接在这个博客上写日志和学习笔记了，此库暂时停更。 戳[blog](http://xyh.fit)
+&emsp;&emsp;博客网站直接改为在WordPress上面做，后续的话就直接在这个博客上写日志和学习笔记了，此库暂时停更。 新博客戳[blog](http://xyh.fit)
 <p align="right">2021.6.19 & 6.21 night</p>
